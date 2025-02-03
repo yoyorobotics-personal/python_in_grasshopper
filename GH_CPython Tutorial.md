@@ -1,5 +1,5 @@
 # How to use python in grasshopper (rhino version 7 and 8 in windows)  
-There are many ways of using full python tools in grasshopper (rhino). gh_cpython is no longer widely used, but I still want to introduce it first. Because I think it is more useful than the Python 3 that comes with Rhino 8. GH Python Remote is also good, but considering that people always start with legacy code, I believe quickly getting familiar with gh_cpython is the first step for beginners to smoothly progress.
+There are many ways of using full python tools in grasshopper (rhino). gh_cpython is no longer widely used, but I still want to introduce it first. Because I think it is more useful than the Python 3 that comes with Rhino 8. GH Python Remote is also ok, but considering that people always start with legacy code, I believe quickly getting familiar with gh_cpython is the first step for beginners to smoothly progress.
 ## gh_cpython (open sourced, no longer maintained, ok for starters)
 ### ⚡Caution: You can also open python files with cpython, it works the same with vscode or other IDEs, but I recommend to code in typical IDEs than in grasshopper or cpython
 Food4rhino: https://www.food4rhino.com/en/app/ghcpython  
