@@ -9,10 +9,15 @@ Advantages: use any version of python existing on your computer, working exactly
 Tutorial:
 1. download python from `https://www.python.org/downloads/`
 2. find the path where python locates by:
-   1. type `cmd` in your research bar, the one at the bottom of your entire screen, next to your windows icon  
+   1. type `cmd` in your research bar, the one at the bottom of your entire screen, next to your windows icon (Note: if you are using anaconda, open `Anaconda Prompt` rather than using `cmd`)  
    2. at the newly opened black window, type `where python`, the path of python will show as:  
       `C:\Users\<Username>\AppData\Local\Programs\Python\<PythonVersion>\python.exe`  
       TERMS IN <> ARE TO REPLACED ACCORDING TO YOUR WINDOW
+      (Note if you are using Anaconda, type the following, using python 3.9 for example:
+      ```base
+      conda create --name myenv python=3.9 
+      conda activate myenv
+      where python    
    3. copy this path to a notepad or somewhere you like
 3. set rhino and grasshopper:
    1. open rhino as ADMINISTRATOR by right clicking and choosing `Run as an administrator`
@@ -31,10 +36,13 @@ Tutorial:
    2. show input and output in grasshopper and link this component to others (You can do it by yourself)
    3. install an external library and run it in grasshopper:
       1. type `cmd` in your research bar or your can use IDE terminal if you like
-      2. type `pip install <package_name>`, with the internet, it should download the package for you, remember to replace `<package_name>`with the package you need  
-         here, i want to mention that if you have mutiple python versions on your computer or you are working with anaconda, please check whether you are installing package with the correct python version, same as the path to the cpython python interpreter.
-      4. go back to rhino, grasshopper and cpython, it should work now. REMEMBER TO **OPEN RHINO AS ADMINISTRATOR!!!**
-      5. here is an example of using numpy with cpython in grasshopper:
+      2. type `pip install <package_name>`, with the internet, it should download the package for you, remember to replace `<package_name>`with the package you need. Note: if you are using Anaconda, you may not need to install numpy. But if you want to install any packages that anaconda do not have, on Anaconda Prompt:
+         ```bash
+         conda activate myenv
+         conda install <package_name>  
+   Here, i want to mention that if you have mutiple python versions on your computer or you are working with anaconda, please check whether you are installing package with the correct python version, same as the path to the cpython python interpreter.
+      3. go back to rhino, grasshopper and cpython, it should work now. REMEMBER TO **OPEN RHINO AS ADMINISTRATOR!!!**  
+      4. here is an example of using numpy with cpython in grasshopper:
       ![image](https://github.com/user-attachments/assets/f41026f6-d778-4f89-9e93-5267686d6612)  
       1. get python path  
       ![Screenshot 2025-02-03 150339](https://github.com/user-attachments/assets/d259c688-88cd-41e1-b490-139d650b2b61)  
