@@ -13,6 +13,11 @@ gh_cpython的优点: 不局限于python的版本，准确说，你电脑上装�
    2. 在新打开的黑色窗口中输入 `where python`，Python 的路径将显示为：  
       `C:\Users\<用户名>\AppData\Local\Programs\Python\<Python版本>\python.exe`  
       <> 中的用户名和版本需要根据您的 Windows 替换
+      如果你用的是anaconda，请打开anaconda prompt，然后建立一个虚拟环境，然后找python的路径（python3.9是一个例子， 你想用啥版本都行）：
+      ```bash
+      conda create --name myenv python=3.9 
+      conda activate myenv
+      where python    
    3. 将这个路径复制到记事本或其他你爱咋咋
 3. 设置 Rhino 和 Grasshopper：
    1. 通过右键单击并选择“以管理员身份运行”打开 Rhino
@@ -32,8 +37,12 @@ gh_cpython的优点: 不局限于python的版本，准确说，你电脑上装�
    3. 安装一个外部库并在 Grasshopper 中运行：
       1. 在搜索栏中输入 `cmd`，或者你也可以使用 IDE 终端，如果你喜欢的话
       2. 输入 `pip install <package_name>`，如果有互联网连接，它将为你下载该包，记得将 `<package_name>` 替换为你需要的包
-         在这里，我想提一下，如果你的电脑上有多个 Python 版本，或者你正在使用 Anaconda，请检查你是否正在用正确的 Python 版本安装包，确保路径和 cpython Python 解释器一致
-      4. 返回 Rhino、Grasshopper 和 cpython，它现在应该可以正常工作。记住**以管理员身份打开 Rhino!!!**
+      3. 如果你用的是anaconda， 其实不需要安装numpy，因为这是它自带的，不过你也有可能想安装其他的包，可以打开anaconda prompt，然后：
+         ```bash
+         conda activate myenv
+         conda install <package_name>  
+      在这里，我想提一下，如果你的电脑上有多个 Python 版本，或者你正在使用 Anaconda，请检查你是否正在用正确的 Python 版本安装包，确保路径和 cpython Python 解释器一致  
+      4. 返回 Rhino、Grasshopper 和 cpython，它现在应该可以正常工作。记住**以管理员身份打开 Rhino!!!**  
       5. 这是在 Grasshopper 中使用 numpy 与 cpython 的示例：
       ![image](https://github.com/user-attachments/assets/f41026f6-d778-4f89-9e93-5267686d6612)  
       1. 找到python的下载路径  
