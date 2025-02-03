@@ -1,5 +1,5 @@
 # 怎么在grasshopper里正常用python，题主测试了rhino7和8
-见仁见智，gh_cpython已经不再维护了，但是可爱萌新拿到祖传代码之后还是希望先用cpython跑起来，所以题主写了这个教程，最新请尝试`GH Python Remote`  
+见仁见智，gh_cpython已经不再维护了，但是可爱萌新拿到祖传代码之后还是希望先用cpython跑起来，所以题主写了这个教程。题主没有尝试过`GH Python Remote`，但是gh python remote与python3 不兼容，让题主感到疑惑。最新的rhino8支持python3.9，上手快,可以试试。
 ## gh_cpython (开源，不再维护，新手友好)
 ### ⚡提个醒: 虽然cpython跑起来没什么问题，但是正经编程请用正常的IDE，比如vscode，虽然也是大玩具，但是好用多了
 Food4rhino: https://www.food4rhino.com/en/app/ghcpython  
@@ -53,7 +53,7 @@ gh_cpython的优点: 不局限于python的版本，准确说，你电脑上装�
       ![Screenshot 2025-02-03 151025](https://github.com/user-attachments/assets/6871cdf3-850f-476d-82d2-09cb27379547)
       4. 安装 numpy
       ![image](https://github.com/user-attachments/assets/135b29e2-84e2-498f-9e85-9a59a59c3dd6)
-      5. 应该没问题了，如果还有问题，请移步`GH Python Remote`，这个旧势力不用死磕
+      5. 应该没问题了，如果还有问题，请给题主发邮件，或者移步其他平台
 ### ⚡提个醒: 虽然cpython跑起来没什么问题，但是正经编程请用正常的IDE，比如vscode，虽然也是大玩具，但是好用多了
 ### ⚡这个教程还有个英文版本，不明白中文的盆友可以去看英文的，毕竟grasshopper自身是英文的，可能更好理解一丢
 
