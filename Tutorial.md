@@ -36,15 +36,15 @@ Tutorial:
       4. go back to rhino, grasshopper and cpython, it should work now. REMEMBER TO **OPEN RHINO AS ADMINISTRATOR!!!**
       5. here is an example of using numpy with cpython in grasshopper:
       ![image](https://github.com/user-attachments/assets/f41026f6-d778-4f89-9e93-5267686d6612)  
-1. get python path  
+      1. get python path  
       ![Screenshot 2025-02-03 150339](https://github.com/user-attachments/assets/d259c688-88cd-41e1-b490-139d650b2b61)  
-2. OPEN RHINO AS ADMINISTRATOR
-      ![Screenshot 2025-02-03 150358](https://github.com/user-attachments/assets/1b3572d5-80db-4bec-9545-d2d11f87941f)
-3. set cpython python interpreter path
-      ![Screenshot 2025-02-03 151025](https://github.com/user-attachments/assets/95607462-f7e9-4a34-8cae-f79407b9407f)
-4. install numpy
+      2. OPEN RHINO AS ADMINISTRATOR
+      ![Screenshot 2025-02-03 153329](https://github.com/user-attachments/assets/f62f371f-823b-4409-af91-86e3fe27d324)  
+      3. set cpython python interpreter path
+      ![Screenshot 2025-02-03 151025](https://github.com/user-attachments/assets/6871cdf3-850f-476d-82d2-09cb27379547)
+      4. install numpy
       ![image](https://github.com/user-attachments/assets/135b29e2-84e2-498f-9e85-9a59a59c3dd6)
-5. it should work well
+      5. it should work well
 ## You can also open python files with cpython, it works the same with vscode or other IDEs, but I recommend to code in typical IDEs than in grasshopper or cpython
 
 
